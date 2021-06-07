@@ -1,0 +1,667 @@
+
+.conceito { 
+    margin-top:150px;  
+    text-align:center;
+  }
+
+
+
+/** animation **/
+
+.linha {
+  stroke: #E97510;
+  stroke-width: 2;
+}
+
+@keyframes dash {
+  from {
+    stroke-dashoffset: 248.22958374023438;
+  }
+  to {
+    stroke-dashoffset: 0;
+  }
+  
+}
+
+
+.container-mancha1 { 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    height: 950px;
+    margin-top: -75px;
+      
+
+}
+.container-mancha-clientes { 
+  display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    height: 900px;
+    margin-top: -75px;
+    width: 70%;
+    margin-left: -150px; 
+
+}
+
+.sub-span-text { 
+  color:#73BEE8;
+   font-weight: 200; 
+   font-size:20px;
+   font-family: 'CeraProRegular';
+}
+
+
+.texto-mancha1 { 
+    margin: 0% 20% 0% 20%;
+    line-height: 75px;
+}
+
+.subtexto-mancha1 { 
+    font-size:20px;
+    line-height: 75px;
+    margin-top:50px;
+    color:#FDBE33;
+}
+
+
+.container {  
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  height:750px;
+}
+
+.container-servicos-lista { 
+  width: 40%;
+  height: 100%;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+}
+
+.container-name { 
+  width: 15%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  background-image: url(../img/manchas/Mancha_Servicos.svg);
+  background-repeat: no-repeat;
+  background-position: right;
+}
+
+.container-content { 
+  flex-direction: column;
+  width: 45%;
+  height: 100%;
+ 
+}
+
+.container-icon { 
+  width: 100%;
+  height: 55%;
+  align-items: center;
+ margin-top:15%;
+  display: flex;
+  justify-content: center;
+}
+
+.container-text { 
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin: 0px 100px 0px 100px;
+  
+}
+
+.service-header { 
+  position: absolute;
+  transform: rotate(-90deg);
+  margin-left: -2%;
+
+ 
+} 
+
+.slider-projetos { 
+  width: 60%;
+  height: 100%;
+}
+
+.cases-projetos { 
+  width: 40%;
+  height: 100%;
+}
+
+.container2 {  
+  display: flex;
+  align-items: center;
+  flex-direction: row; 
+ margin-top:5%;
+ 
+}
+
+.container3 {  
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  height:750px;
+ margin:15% 0%;
+ 
+}
+
+.projetos-header { 
+  display: flex;
+  flex-direction: row;
+  width: 90%;
+  height: 30%;
+  
+  margin-left: 25%;
+  align-items: center;
+}
+
+.projetos-text { 
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-left: 25%;
+  width: 90%;
+  height: 40%;
+  
+}
+
+.projetos-icons { 
+  display: flex;
+  align-items: center;
+  margin-left: 25%;
+  width: 90%;
+  margin-top:25px;
+  
+}
+
+.slider-projetos { 
+  margin-bottom: 150px;
+}
+
+.pushable {
+  background: hsl(30deg 87% 30%);
+  border: none;
+  border-radius: 12px;
+  padding: 0;
+  cursor: pointer;
+  outline-offset: 4px;
+}
+.front {
+  display: block;
+  padding: 12px 42px;
+  border-radius: 12px;
+  font-size: 1.25rem;
+  background: hsl(28deg 87% 49%);
+  color: white;
+  transform: translateY(-6px);
+}
+
+.pushable:active .front {
+  transform: translateY(-2px);
+}
+
+.form { 
+  text-align: center;
+}
+
+.little-button { 
+  display: flex;
+  align-content: center;
+  justify-content: center;
+  margin: 20px;
+  margin-top: 5%;
+}
+
+.container-texto { 
+  margin-left:100px;
+  margin-right: 200px;
+  width: 30%;
+}
+
+.container4 {  
+  display: flex;
+  flex-direction: column;
+  margin:0% 10%;
+}
+
+.foguete-row { 
+  display: flex;
+  flex-direction: row;
+}
+
+.foguete { 
+  position: relative;
+ align-self: flex-end;
+ margin-left: -12%;
+ transition: all 2s ease-in-out;
+ 
+}
+
+.foguete:hover { 
+  transform: rotate(50deg);
+  
+}
+
+.container_novidades { 
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 1000px;
+  width: 100%;
+  background-image: url('../img/manchas/Mancha_3.svg');
+  background-size: contain; 
+  background-repeat: no-repeat;
+  background-position:center;
+
+}
+
+  .mancha-content {
+  width: 80%;
+   display: flex;
+   justify-content: center;
+   
+   flex-direction: row;
+    
+  }
+
+  .mancha-botao { 
+    display: flex;
+    flex-direction: column;
+    margin-left: 10%;
+    justify-content: center;
+  }
+
+  .mancha-input { 
+    text-align:center;
+  }
+
+ 
+
+    
+.footer { 
+  display: flex;
+  align-items: baseline;
+  background-image: url('../img/manchas/Mancha_4.svg');
+  background-size: cover; 
+  background-repeat: no-repeat;
+  background-position:center;
+  padding-top: 15%;
+  padding-bottom: 5%;
+}
+
+
+.footer_content { 
+  display: flex;
+  justify-content: space-between;
+  margin-left: 10%;
+  margin-right: 20%;
+  width: 100%;
+ 
+}
+
+
+.footer-header { 
+  margin:10px;
+   font-size:30px;
+    color:#FDBE33;
+}
+
+.footer-logo { 
+  width:276.08px; 
+  height:97.29px;
+  margin-top:25px;
+}
+
+.footer-text { 
+  margin:10px; 
+   font-size:20px;
+    color:#fff;
+}
+
+.footer-social { 
+  margin:10px;
+  width: 50px;
+   height:50px;
+}
+
+.footer_column { 
+  display: flex;
+  flex-direction: column;
+
+}
+
+.footer_row { 
+  display: flex;
+  flex-direction: row;
+  
+}
+
+.bananacompastel { 
+  height: 100%;
+  width: 50%;
+  margin-left: 8%;
+  margin-top: 150px;
+}
+
+.li_servicos  { 
+  color:#A6A6A6;
+  font-weight:400;
+  font-size:25px;
+  font-family: 'CeraProMedium';
+  margin:50px 0; 
+
+}
+
+
+.p-clientes { 
+  font-size:20px; 
+  margin:0 50px;
+}
+
+.h5-clientes { 
+  font-size:50px;
+   margin:10px 50px;
+}
+
+.cubo-clientes { 
+  margin:0 30px;
+  width:246px;
+  height:254px;
+}
+
+.active { 
+  color:#FDBE33;
+}
+
+.p-projetos { 
+  font-size:18px; 
+  padding-right:15%;
+}
+
+.h5-projetos { 
+  color:#107064;
+  font-weight: 400;
+  font-size:35px;
+  font-family: 'CeraProMedium';
+  margin: 0;
+}
+
+.h2-projetos { 
+  font-size:50px;
+  margin:0;
+}
+
+.h4-projetos { 
+  color:#2d252d;
+  font-weight: 200;
+  font-size:25px;
+  font-family: 'CeraProRegular';
+  margin: 0;
+}
+
+.texto-manifesto { 
+  color:#202328; 
+  font-weight:200; 
+  line-height: 40px; 
+  font-size:20px;  
+  padding-left: 5%;
+}
+
+.texto-manifesto-span { 
+  font-weight:200; 
+  line-height: 40px;
+  font-size:20px;
+}
+
+.projetos-beneficios { 
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-left: 15px;
+}
+
+.container-contato { 
+  background-image: url('../img/manchas/Mancha_Contato.svg');
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position:center;
+  height: 85vh;
+  width: 100vw;
+  margin-top: 5%;
+  padding-top: 5%;
+}
+
+.header-contato { 
+display: flex;
+justify-content: center;
+flex-direction: column;
+align-items: center;
+
+}
+
+.text-contato { 
+margin:0;
+}
+
+.contato-bottom { 
+  display: flex;
+    justify-content: center;
+    flex-direction: row;
+    align-items: center;
+    margin-top: 50px;
+}
+
+#ikoncasa {
+  margin-right: 0px;
+}
+
+
+.contato-inputs { 
+  width: 40%;
+}
+
+input[type=email] { 
+  background: transparent;
+  color: #fff;
+  
+  font-weight: 200;
+  font-size:20px;
+  font-family: 'CeraProRegular';
+  line-height: 30px;
+  width: 80%;
+  border-style:solid;
+  border-color: #E97510;
+  stroke: #E97510;
+  border-radius: 100px 25px 100px 25px;
+  padding: 10px 0px;
+  text-align: center;
+  margin-bottom: 15px;
+ 
+}
+
+input[type=email]:focus { 
+  outline: none !important;
+  border:2px solid #107064;
+  padding: 10px 0px;
+
+
+}
+
+input[type=email]::placeholder { 
+
+  color: #fff;
+  
+  font-weight: 200;
+  font-size:20px;
+  font-family: 'CeraProRegular';
+  line-height: 30px;
+  
+}
+
+input[type=submit] { 
+  background: #E97510;
+  color: #fff;
+  
+  font-weight: 200;
+  font-size:20px;
+  font-family: 'CeraProRegular';
+  line-height: 30px;
+  width: 20%;
+  border-style:solid;
+  border-color: #E97510;
+  stroke: #E97510;
+  border-radius: 100px 25px 100px 25px;
+  text-align: center;
+  opacity: 0.5;
+}
+
+
+input[type=submit]:hover { 
+  outline: none !important;
+  background-color: #E97510;
+  border-color: #E97510;
+  stroke: #E97510;
+  cursor: pointer;
+  opacity: 1;
+
+}
+
+input[type=submit]:focus { 
+  outline: none !important;
+  background-color: #E97510;
+  border-color: #E97510;
+  stroke: #E97510;
+  cursor: pointer;
+  opacity: 1;
+
+}
+
+
+
+textarea { 
+  width: 80%;
+  height: 100px;
+  padding: 12px 20px;
+  border: 2px solid #E97510;
+  color: #fff;
+  border-radius: 4px;
+  background-color: transparent;
+  font-weight: 200;
+  font-size:20px;
+  font-family: 'CeraProRegular';
+  border-style:solid;
+  border-color: #E97510;
+  stroke: #E97510;
+  border-radius: 100px 25px 100px 25px;
+  padding: 10px 0px;
+  text-align: center;
+}
+
+textarea::placeholder { 
+  color: #fff;
+  font-weight: 200;
+  font-size:20px;
+  font-family: 'CeraProRegular';
+  line-height: 30px;
+  
+}
+
+textarea:focus { 
+  outline: none !important;
+  border:2px solid #FDBE33;
+  padding: 10px 0px;
+  
+}
+
+
+#input-send-contato { 
+  background: #FDBE33;
+  color: #fff;
+  font-weight: 200;
+  font-size:20px;
+  font-family: 'CeraProRegular';
+  line-height: 30px;
+  width: 50%;
+  border-style:solid;
+  border-color: #FDBE33;
+  stroke: #FDBE33;
+  border-radius: 100px 25px 100px 25px;
+  text-align: center;
+  opacity: 0.5;
+}
+
+
+#input-send-contato:hover { 
+  outline: none !important;
+  background-color: #E97510;
+  border-color: #E97510;
+  stroke: #E97510;
+  cursor: pointer;
+  opacity: 1;
+
+}
+
+#input-send-contato:focus { 
+  outline: none !important;
+  background-color: #E97510;
+  border-color: #E97510;
+  stroke: #E97510;
+  cursor: pointer;
+  opacity: 1;
+
+}
+
+#input-contato { 
+  background: transparent;
+  color: #fff;
+  
+  font-weight: 200;
+  font-size:20px;
+  font-family: 'CeraProRegular';
+  line-height: 30px;
+  width: 80%;
+  border-style:solid;
+  border-color: #E97510;
+  stroke: #E97510;
+  border-radius: 100px 25px 100px 25px;
+  padding: 10px 0px;
+  text-align: center;
+  
+ 
+}
+
+#input-contato:focus { 
+  outline: none !important;
+  border:2px solid #FDBE33;
+  padding: 10px 0px;
+
+
+}
+
+#input-contato::placeholder { 
+
+  color: #fff;
+  
+  font-weight: 200;
+  font-size:20px;
+  font-family: 'CeraProRegular';
+  line-height: 30px;
+  
+}
+
+.margin-top-clientes { 
+  margin-top: 25px;
+}
+
+

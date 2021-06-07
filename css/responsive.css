@@ -1,0 +1,674 @@
+
+  @media (max-width: 920px) {
+    h1 {
+      font-size: 30px;
+    }
+    h2 { 
+        font-size: 20px;
+    }
+ 
+    
+  }
+
+  @media (max-width: 1050px) { 
+    .texto-mancha1 {
+        font-size: 25px;
+        margin: 0% 10% 0% 10%;
+        line-height: 60px;
+    }
+    .subtexto-mancha1 {
+        margin: 0% 5% 0% 5%;
+        margin-top: 50px;
+        line-height: 50px;
+
+    }
+
+  }
+
+  @media (max-width: 490px) { 
+    .texto-mancha1 {
+        font-size: 20px;  
+        margin-top: -100px;
+    }
+    .subtexto-mancha1 {   
+        margin-top: 35px;
+        line-height: 40px;
+
+    }
+
+    li { 
+        font-size: 20px;
+    }
+
+    .li_servicos { 
+        font-size: 20px;
+        margin: 25px 0;
+    }
+
+    p { 
+        font-size: 16px;
+    }
+
+    #ikonoservicos{ 
+        height: 194.67px;
+        width: 153.01px;
+    }
+
+    
+
+  }
+
+  @media (max-width: 400px) { 
+    .texto-mancha1 {
+        font-size: 18px;
+        margin: 0% 5% 0% 5%;
+        line-height: 50px;
+        margin-top: -150px;
+    }
+    .subtexto-mancha1 {
+        margin: 0% 5% 0% 5%;
+        margin-top: 35px;
+        line-height: 40px;
+        font-size: 15px;
+
+    }
+    h2 { 
+        font-size: 18px;
+    }
+    h1 { 
+        font-size: 25px;
+    }
+
+    .sub-span-text { 
+        font-size: 15px;
+    }
+    
+  }
+
+
+  @media (max-width: 1250px) { 
+    .container-name {
+        display: none;
+        width: 0%;
+       
+    }
+    .container-text { 
+        margin: 25px;
+    }
+
+    .container-content { 
+        width: 55%;
+        margin-left: 5%;
+    }
+
+   
+
+    
+  }
+
+
+  @media (max-width: 1000px) { 
+    .container { 
+        flex-direction: column-reverse;
+        margin-top: 100px;
+    }
+
+    .container-content { 
+        width: 90%;
+        margin: 0% 5%;
+    }
+
+    .container-servicos-lista{ 
+        width: 90%;
+        margin-left: 5%;
+    } 
+    
+    
+  }
+
+@media (max-width:1920px) { 
+    .imagem-cliente { 
+        height: 150px;
+        width: 150px;
+        margin-left: 25px;
+    }
+}
+
+@media (max-width:1320px) { 
+    .imagem-cliente { 
+        height: 100px;
+        width: 100px;
+        margin-left: 25px;
+    }
+}
+
+@media (max-width:1200px) { 
+    .container-mancha-clientes { 
+        width: 80%;
+    }
+    .container-texto { 
+        width: 20%;
+    }
+}
+
+@media (max-width:1100px) { 
+    .container-mancha-clientes { 
+        width: 80%;
+    }
+    .container-texto { 
+        width: 30%;
+        margin: 0;
+    }
+    .p-clientes { 
+        font-size:15px;
+    }
+    .h5-clientes { 
+        font-size: 25px;
+    }
+    .cubo-clientes { 
+    width:196.8px;
+    height:203.2px;
+    }
+
+}
+
+@media (max-width:1000px) { 
+    .container-mancha-clientes { 
+        width: 100%;
+        margin-left: 0;
+        height: 1300px;
+        margin-top: 50px;
+        
+    }
+    .container-texto { 
+        width: 100%;
+        text-align: center;
+       
+        
+    }
+    .p-clientes { 
+        font-size:20px;
+    }
+    .h5-clientes { 
+        font-size: 35px;
+    }
+    
+    .container3 {
+        flex-direction: column-reverse;
+        
+    }
+
+    .imagem-cliente { 
+        height: 75px;
+        width: 75px;
+        margin-left: 0px;
+       
+    }
+
+    .container { 
+        height: 100%;
+    }
+
+}
+
+
+@media (max-width:700px) { 
+    
+    
+    .container3 {
+        flex-direction: column-reverse;
+        
+    }
+
+
+}
+
+@media (max-width:490px) { 
+    
+    
+    .container3 {
+        flex-direction: column-reverse;
+      
+        
+    }
+
+
+}
+
+@media (max-width:1250px) { 
+    
+    
+    .bananacompastel {
+       margin-top:250px;
+       width: 45%;
+       margin-left: 8%;
+    }
+
+    .cases-projetos { 
+        width: 45%;
+    }
+
+    .little-button { 
+        margin-top: 50 px;
+    }
+
+    .projetos-icons { 
+        display: none;
+    }
+
+
+}
+
+@media (max-width:1000px) { 
+    
+    
+    .bananacompastel {
+      
+       width: 80%;
+       margin-top: 50px;
+       margin-bottom: 50px;
+    }
+
+    .cases-projetos { 
+        width: 90%;
+    }
+
+    .little-button { 
+        margin-top: 0;
+    }
+
+    .container2 { 
+        flex-direction: column;
+        height: 100%;
+    }
+
+    .projetos-header { 
+        margin-left: 10%;
+    }
+
+    .projetos-text { 
+        margin-left: 10%;
+    }
+
+    .projetos-icons { 
+        margin-left: 10%;
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .little-button { 
+        margin-left: 10%;
+    }
+
+    .projetos-icons { 
+        display: flex;
+    }
+
+    
+
+
+}
+
+
+@media (max-width:420px){ 
+    .p-projetos { 
+        font-size: 16px;
+        padding-right: 10px;
+    }
+
+    .h5-projetos { 
+        
+        font-size:30px;
+        
+      }
+
+      .h2-projetos { 
+        font-size:35px;
+        margin:0;
+      }
+
+      .h4-projetos { 
+        
+        font-size:20px;
+       
+      }
+
+      .carousel::before, .carousel::after, .carousel__prev, .carousel__next { 
+        width: 3rem;
+        height: 3rem;
+      }
+
+      .carousel__navigation-button { 
+        width: 1.25rem;
+        height: 1.25rem;
+      }
+
+      
+
+} 
+
+
+@media (max-width:1250px) { 
+    
+    .foguete-row { 
+        display: none;
+    }
+
+
+}
+
+@media (min-width:1250px) { 
+    
+    .foguete-row2 { 
+        display: none;
+    }
+
+    .texto-manifesto { 
+        font-size: 18px;
+    }
+
+    .texto-manifesto-span { 
+        font-size: 18px;
+    }
+
+}
+
+@media (max-width:650px) { 
+  
+    .texto-manifesto { 
+        font-size: 18px;
+    }
+
+    .texto-manifesto-span { 
+        font-size: 18px;
+    }
+
+}
+
+
+@media (max-width:1000px) { 
+    .container_novidades { 
+        height: 800px;
+        background-image: url('../img/manchas/Mancha_novidades.svg');
+    }
+    .mancha-content { 
+        flex-direction: column;
+        align-content: center;
+    }
+
+    
+
+    .maninho-novidades { 
+        display: flex;
+        align-content: center;
+        justify-content: center;
+    }
+
+    .mancha-botao { 
+        margin-left: 0;
+    }
+
+    .texto-novidades { 
+        text-align: center;
+    }
+
+    input[type=email] { 
+        width: 60%;
+    }
+
+    input[type=submit] { 
+        width: 30%;
+        margin-top: 50px;
+    }
+}
+
+@media (max-width:480px) { 
+    
+    #maninho { 
+        
+      width: 116.15px;
+      height: 134.55px;
+    }
+
+
+    .texto-novidades { 
+       font-size: 25px;
+    }
+
+    input[type=email] { 
+        width: 100%;
+        font-size: 15px;
+        margin-bottom: 0;
+    }
+
+    input[type=submit] { 
+        width: 30%;
+        margin-top: 25px;
+    }
+}
+
+
+@media (max-width: 1350px) { 
+
+    .footer-header { 
+         font-size:20px; 
+      }
+      
+      .footer-logo { 
+        width:220.08px; 
+        height:77.29px;
+        margin-top:35px;
+      }
+      
+      .footer-text { 
+        
+         font-size:15px;
+          
+      }
+
+      .footer_content { 
+          margin-left: 5%;
+          margin-top: 5%;
+          margin-right: 10%;
+
+      }
+
+      
+}
+
+@media (max-width: 1425px) {
+    .container-name {
+        width: 20%;
+    }
+ }
+
+@media (max-width: 1000px) { 
+    
+    .footer_column {
+        margin-top: 25px;
+        margin-bottom: 25px;
+        text-align: center;
+      }
+
+      .footer_content { 
+        margin-left: 5%;
+        margin-top: 60%;
+        margin-right: 5%;
+flex-direction: column;
+    }
+
+    .footer-text { 
+        
+        font-size:18px;
+         
+     }
+
+     .footer-header { 
+        font-size:25px; 
+     }
+
+     .footer-logo { 
+         display: none;
+     }
+
+     .footer-row { 
+         margin-left: 10px;
+     }
+
+     .margin-top-clientes { 
+         margin-top: -10px;
+     }
+
+}
+
+
+@media (max-width: 360px) { 
+    #bike { 
+        width: 320px;
+        height: 330px;;
+    }
+
+    .projetos-header { 
+        margin-left: 0%;
+    }
+
+    .projetos-text { 
+        margin-left: 0%;
+    }
+
+    .projetos-icons { 
+        margin-left: 0%;
+        
+    }
+}
+
+
+@media (min-width: 1250px) { 
+    .batatafrita { 
+        display: flex;
+        flex-direction: row;
+    }
+}
+
+
+@media (max-width:1300px){ 
+    .header-contato { 
+        padding-top: 100px;
+    }
+
+    .faleconosco { 
+        font-size: 35px;
+    }
+
+    .text-contato { 
+        font-size: 20px;
+    }
+
+    #ikoncasa {
+        margin-right: 75px;
+    }
+    
+
+
+}
+
+@media (max-width:1050px){ 
+    
+
+    .container-contato { 
+        background-image: url('../img/manchas/Mancha_Contato2.svg');
+        margin-top: 50px;
+        height: 100vh;
+    }
+
+    #menu-no-contato { 
+        background-color: transparent !important;
+    }
+
+    #ikoncasa {
+        display: none;
+    }
+
+    .contato-inputs { 
+        width: 100%;
+    }
+
+    textarea { 
+        width:50%;
+    }
+    
+
+    .contato-bottom { 
+        margin-top: 25px;
+    }
+
+    .form { 
+        text-align: center;
+    }
+
+    #input-send-contato { 
+        width:50%;
+        margin-top: 0px;
+    }
+
+    #input-contato { 
+        width:50%;
+    }
+
+    
+
+}
+
+
+@media (min-width: 1050px){
+    #ikoncasamin { 
+        display: none;
+    }
+    
+}
+
+
+@media (max-width: 593px){
+
+    .header-contato { 
+        margin-top: 0;
+        padding-top: 0;
+    }
+
+    #menu-no-contato { 
+        background-color: transparent !important;
+    }
+
+    .contato { 
+        background-color: #107064;
+    }
+    .container-contato { 
+        background-color: #107064;
+        background-image: unset;
+        padding-top: 100px;
+    }
+
+    .text-contato { 
+        padding: 0 10%;
+    text-align: center;
+    }
+
+    .faleconosco { 
+        margin: 20px 0 10px 0;
+        text-align: center;
+    }
+
+    #input-contato { 
+        width: 70%;
+    }
+
+    #input-send-contato {
+        margin-bottom: 50px;
+    }
+
+    textarea { 
+        width: 70%;
+    }
+    
+}
+
